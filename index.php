@@ -13,17 +13,17 @@ echo '<title>Pair Program 2</title>';
 echo '<h1>Pair Program 2</h1>';
 echo '<p>PHP Array Practice</p>';
 
-echo '<p>Step 1</p>';
+echo '<p>Step 2</p>';
 $numbers = [7, 9, 8, 9, 8, 8, 6];
 printArr($numbers);
 
+echo '<p>Step 3</p>';
 
+echo '<p>Step 4</p>';
 
+echo '<p>Step 5</p>';
 
-
-
-
-
+echo '<p>Step 6</p>';
 
 
 
