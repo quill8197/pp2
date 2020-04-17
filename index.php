@@ -8,7 +8,7 @@
 //Turn on error reporting
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
-include_once ("functions.php");
+require_once ("functions.php");
 
 echo '<title>Pair Program 2</title>';
 echo '<h1>Pair Program 2</h1>';
@@ -18,10 +18,12 @@ echo '<p>Step 2</p>';
 $numbers = [7, 9, 8, 9, 8, 8, 6];
 printArr($numbers);
 
+
 echo '<p>Step 3</p>';
 echo 'Functions are in a separate php file';
 
 echo '<p>Step 4</p>';
+largest($numbers);
 
 echo '<p>Step 5</p>';
 
