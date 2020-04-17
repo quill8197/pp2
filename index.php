@@ -23,9 +23,10 @@ echo '<p>Step 3</p>';
 echo 'Functions are in a separate php file';
 
 echo '<p>Step 4</p>';
-largest($numbers);
+echo '<p>/The largest value is ' . largest($numbers) . '</p>';
 
 echo '<p>Step 5</p>';
+printArr(removeDups($numbers));
 
 echo '<p>Step 6</p>';
 

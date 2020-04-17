@@ -9,5 +9,10 @@ function printArr(array $array)
 
 function largest(array $array)
 {
-    echo '<p>The largest number is ' , max($array) . '</p>';
+    return max($array);
+}
+
+function removeDups(array $array)
+{
+    return array_unique($array);
 }
