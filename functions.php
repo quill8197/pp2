@@ -16,3 +16,8 @@ function removeDups(array $array)
 {
     return array_unique($array);
 }
+
+function distribution(array $array)
+{
+    return array_count_values($array);
+}

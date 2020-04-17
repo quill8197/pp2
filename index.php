@@ -23,11 +23,14 @@ echo '<p>Step 3</p>';
 echo 'Functions are in a separate php file';
 
 echo '<p>Step 4</p>';
-echo '<p>/The largest value is ' . largest($numbers) . '</p>';
+echo '<p>The largest value is ' . largest($numbers) . '</p>';
 
 echo '<p>Step 5</p>';
 printArr(removeDups($numbers));
 
 echo '<p>Step 6</p>';
-
-
+$array = distribution($numbers);
+foreach ($array as $key => $value)
+{
+    echo "Key: $key; Value: $value\n";
+}
